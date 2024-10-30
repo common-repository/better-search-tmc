@@ -1,0 +1,73 @@
+[
+    {
+        "name": "tmc/admin-page-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://vps380040.ovh.net/public-access/tmc-admin-page-framework.git",
+            "reference": "396ea08e862a804e5f62ecf895bcab5eadc3085a"
+        },
+        "time": "2019-05-07T11:36:47+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Jakub Kuranda",
+                "email": "jakubkuranda@gmail.com"
+            }
+        ],
+        "description": "Compiled version of admin-page-framework"
+    },
+    {
+        "name": "tmc/shellpress",
+        "version": "dev-1_3_71",
+        "version_normalized": "dev-1_3_71",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TheMasterCut/ShellPress.git",
+            "reference": "9dd7357bf4c5000ea3073e2be72a2772d1167407"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TheMasterCut/ShellPress/zipball/9dd7357bf4c5000ea3073e2be72a2772d1167407",
+            "reference": "9dd7357bf4c5000ea3073e2be72a2772d1167407",
+            "shasum": ""
+        },
+        "require": {
+            "ext-zip": "*",
+            "php": ">=5.3"
+        },
+        "time": "2019-05-17T10:59:15+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "shellpress\\v1_3_71\\": ""
+            },
+            "psr-0": {
+                "Mustache": "lib/Mustache/"
+            },
+            "files": [
+                "src/Shared/Utility/RequirementChecker.php"
+            ]
+        },
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Jakub Kuranda",
+                "email": "jakubkuranda@gmail.com"
+            }
+        ],
+        "description": "Wordpress plugin framework",
+        "support": {
+            "source": "https://github.com/TheMasterCut/ShellPress/tree/1_3_71",
+            "issues": "https://github.com/TheMasterCut/ShellPress/issues"
+        }
+    }
+]

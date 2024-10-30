@@ -1,0 +1,18 @@
+{{#results}}
+    <div class="result">
+
+        <a class="title" href="{{url}}">
+            {{{titleRendered}}}
+        </a>
+
+        <div class="excerpt">
+            {{{excerpt}}}
+        </div>
+
+    </div>
+{{/results}}
+{{^results}}
+    <div class="empty-result">
+        {{{noResultsText}}}
+    </div>
+{{/results}}

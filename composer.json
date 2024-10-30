@@ -1,0 +1,38 @@
+{
+    "name" :              "tmc/bettersearch",
+    "description" :       "Better Search is alternative to the standard WordPress search with a better mobile search engine. Our search plugin is simple and easy to use. Better Search TMC is lightweight and mobile first designed for better mobile search experience.",
+    "minimum-stability" : "stable",
+    "license" :           "proprietary",
+    "authors" :           [
+        {
+            "name" :  "Jakub Kuranda",
+            "email" : "jakubkuranda@gmail.com"
+        }
+    ],
+    "repositories" :      [
+        {
+            "type" : "vcs",
+            "url" :  "https://github.com/TheMasterCut/ShellPress"
+        },
+        {
+            "type" : "vcs",
+            "url" :  "http://vps380040.ovh.net/public-access/tmc-admin-page-framework.git"
+        }
+    ],
+    "require" :           {
+        "php" :                             ">=5.3",
+        "tmc/shellpress" :                  "dev-1_3_71",
+        "tmc/admin-page-framework" :        "dev-master"
+    },
+    "autoload" :          {
+        "psr-4" : {
+            "tmc\\bs\\" : ""
+        },
+        "classmap" : [
+            "src/AdminPages/tmc_bs_apf.php"
+        ]
+    },
+    "config" : {
+        "secure-http" : false
+    }
+}

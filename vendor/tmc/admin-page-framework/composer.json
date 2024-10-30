@@ -1,0 +1,12 @@
+{
+    "name" :              "tmc/admin-page-framework",
+    "description" :       "Compiled version of admin-page-framework",
+    "minimum-stability" : "stable",
+    "license" :           "proprietary",
+    "authors" :           [
+        {
+            "name" :  "Jakub Kuranda",
+            "email" : "jakubkuranda@gmail.com"
+        }
+    ]
+}
